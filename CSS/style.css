@@ -14,7 +14,7 @@ main {
 .banner-container {
   background: #161616;
   /* border: 5px solid red; */
-  margin-left: 140px;
+  margin-left: 60px;
   margin-top: 50px;
   margin-right: 140px;
   padding-left: 106px;
@@ -84,7 +84,7 @@ main {
 
 .last-section-container {
   margin-top: 130px;
-  margin-left: 140px;
+  margin-left: 60px;
   display: flex;
 }
 
@@ -155,10 +155,11 @@ main {
   width: 312px;
   height: 362px;
   display: grid;
-  grid-template-columns: repeat(100,1fr);
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 24px;
 }
 
-.article-items {
+.article-item {
   border: 1px solid grey;
   border-radius: 10px;
   box-shadow: 5px 10px 8px #888888;
