@@ -94,7 +94,6 @@ main {
   margin-right: 24px;
   background: #161616;
   border-radius: 10px;
-
 }
 
 .upcoming-match {
@@ -155,11 +154,13 @@ main {
 .article-container {
   width: 312px;
   height: 362px;
+  display: grid;
+  grid-template-columns: repeat(100,1fr);
 }
 
 .article-items {
-  border:1px solid grey;
-  border-radius:10px;
+  border: 1px solid grey;
+  border-radius: 10px;
   box-shadow: 5px 10px 8px #888888;
 }
 
@@ -172,8 +173,8 @@ main {
 .article-btn-transfer {
   width: 100;
   height: 32;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin-left: 17px;
   padding-left: 20px;
   padding-right: 16px;
@@ -199,35 +200,29 @@ main {
 
 .article-footer-container {
   margin-top: 20px;
-  margin-left:20px ;
+  margin-left: 20px;
+  margin-bottom: 20px;
   display: flex;
-
 }
 
 .footer-time-icon {
-  
-  font-weight: 400;
-  font-size: 20px;
-  font-family: "HelveticaNeue";
 
-  background: #dd0000;
+  padding-right: 10px;
 
-  color: white;
+}
 
+.footer-comments-icon{
+  padding-left: 10px;
+  padding-right: 10px;
   
 }
-.fa-clock-eleven-thirty {
-  /* color:purple;
+/* .fa-clock-eleven-thirty {
+   color:purple;
   font-family: "Font Awesome 6 Free";
-  font-weight: 900; */
-
+  font-weight: 900
   
 
-}
+} */
 
-.fa-message-dots {
-  color:black;
-
-}
 
 /* last section end*/
