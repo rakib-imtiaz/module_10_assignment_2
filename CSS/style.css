@@ -17,24 +17,31 @@ main {
   margin-left: 140px;
   margin-top: 50px;
   margin-right: 140px;
-  padding-left: 140px;
+  padding-left: 106px;
   /* padding-right: 140px; */
 
   height: 85vh;
   border-radius: 30px;
   color: purple;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .banner-Information {
+  margin-top: 250px;
+  /* padding-left: 106px; */
+  /* padding-right: 24px; */
+  padding-bottom: 111px;
+  
 }
 .banner-title {
   font-family: "Poppins";
   color: #ffffff;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
+  /* margin-top: 200px; */
+  /* padding-top: 190px; */
+  line-height: 80px;
 }
 
 .banner-paragraph {
@@ -48,6 +55,7 @@ main {
 
 .banner-watchLive-btn {
   padding-top: 30px;
+  padding-bottom: 150px;
 }
 .banner-watchLive-btn button {
   width: 187px;
@@ -70,3 +78,9 @@ main {
   padding-left: 24px;
   /* width: 100%; */
 }
+
+/* end of first section */
+
+/* last section start*/
+
+/* last section end*/
