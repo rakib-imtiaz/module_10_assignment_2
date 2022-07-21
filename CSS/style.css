@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+}
+.banner-section {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container {
+  background: #161616;
+  /* border: 5px solid red; */
+  margin-left: 140px;
+  margin-top: 50px;
+  margin-right: 140px;
+  padding-left: 140px;
+  /* padding-right: 140px; */
+
+  height: 85vh;
+  border-radius: 30px;
+  color: purple;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-Information {
+}
+.banner-title {
+  font-family: "Poppins";
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.banner-paragraph {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.banner-watchLive-btn {
+  padding-top: 30px;
+}
+.banner-watchLive-btn button {
+  width: 187px;
+  height: 56px;
+  border-radius: 9px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "HelveticaNeue";
+  text-align: center;
+
+  background: #dd0000;
+
+  color: white;
+}
+
+.banner-image img {
+  /* width: 581px; */
+  height: 70vh;
+  padding-right: 80px;
+  padding-left: 24px;
+  /* width: 100%; */
+}
