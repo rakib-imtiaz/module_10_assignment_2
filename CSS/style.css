@@ -85,6 +85,7 @@ main {
 .last-section-container {
   margin-top: 130px;
   margin-left: 60px;
+  margin-right: 60px;
   display: flex;
 }
 
@@ -155,8 +156,9 @@ main {
   width: 312px;
   height: 362px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-row-gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 30px;
 }
 
 .article-item {
@@ -207,15 +209,12 @@ main {
 }
 
 .footer-time-icon {
-
   padding-right: 10px;
-
 }
 
-.footer-comments-icon{
+.footer-comments-icon {
   padding-left: 10px;
   padding-right: 10px;
-  
 }
 /* .fa-clock-eleven-thirty {
    color:purple;
@@ -225,5 +224,109 @@ main {
 
 } */
 
-
 /* last section end*/
+
+/* media queries */
+
+/* for mobiles */
+@media only screen and (max-width: 688px) {
+  
+  .banner-section {
+    margin-left: 15px;
+    margin-right: 10px;
+
+
+  } 
+
+.main{
+
+}
+  .banner-container {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+  
+    
+  }
+  .banner-Information {
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 38px;
+    margin-bottom: 8px;
+    padding-bottom: 21px;
+  }
+
+  .banner-title {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 20px;
+  }
+  .banner-paragraph {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+  }
+
+  .banner-watchLive-btn {
+    padding-top: 30px;
+    padding-bottom: 21px;
+    text-align: center;
+  }
+  .banner-image {
+    padding-right: 100px;
+  }
+
+  .banner-image img {
+    height: 45vh;
+    padding-left:24px;
+    padding-right: 0px;
+  }
+
+  .last-section-container {
+    flex-direction: column;
+    row-gap: 50px;
+    margin-left:8%;
+    margin-top: 42px;
+  }
+  .article-container{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .side-navigator{
+    background:white;
+
+
+  }
+  .upcoming-match{
+
+    border: 1px solid rgba(224, 213, 213, 0.726) ;
+  }
+  .all-group{
+    border: 1px solid rgba(224, 213, 213, 0.726) ;
+    width:161px;
+    margin-left: 72px;
+
+
+  }
+.blog{
+  width:161px;
+  margin-left: 72px;
+}
+}
+
+
+
+
+/* for tablets  and i pads*/
